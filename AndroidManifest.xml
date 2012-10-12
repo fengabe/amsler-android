@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1"
+	android:versionName="1.0"
+	package="com.fyrecloud.amsler"
+	>
+
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="4" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application
+		android:icon="@drawable/amsler_icon"
+		android:label="@string/amsler"
+		android:name =".AmslerApplication"
+		>
+
+		<activity
+			android:label="@string/amsler"
+			android:name=".Home"
+			>
+
+			<intent-filter >
+				<action   android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+
+		<activity android:label="@string/about"                  android:name=".About"/>
+		<activity android:label="@string/download_snapshot"      android:name=".DownloadSnapshot"/>
+		<activity android:label="@string/preferences"            android:name=".Preferences"/>
+		<activity android:label="@string/sqlite_explorer_tables" android:name=".SQLiteExplorerTables"/>
+		<activity android:label="@string/sqlite_explorer_rows"   android:name=".SQLiteExplorerRows"/>
+		<activity android:label="@string/sqlite_explorer_record" android:name=".SQLiteExplorerRecord"/>
+		<activity android:label="@string/start_synchronization"  android:name=".Synchronize"/>
+
+	</application>
+
+</manifest>

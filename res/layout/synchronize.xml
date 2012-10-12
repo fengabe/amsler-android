@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:background    = "@color/lite_green"
+	android:layout_height = "fill_parent"
+	android:layout_width  = "fill_parent"
+	android:orientation   = "vertical"
+	android:padding       = "10sp"
+	>
+
+	<ListView
+		android:id="@+id/lvReplicationEvents"
+		android:layout_height  = "wrap_content"
+		android:layout_weight  = "1"
+		android:layout_width   = "fill_parent"
+		android:cacheColorHint = "#00000000"
+	/>
+    <!-- 
+	<TextView
+		style="@style/Text.Label"
+		android:text="@string/binlog_filename"
+	/>
+
+	<TextView
+		android:id="@+id/txtBinlogFilename"
+		style="@style/Text"
+		android:text="@string/not_available"
+	/>
+
+	<TextView
+		style="@style/Text.Label"
+		android:text="@string/binlog_position"
+	/>
+
+	<TextView
+		android:id="@+id/txtBinlogPosition"
+		style="@style/Text"
+		android:text="@string/not_available"
+	/>
+
+	<Button
+		android:id="@+id/btnStartStopSynchronization"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_marginTop="5sp"
+		android:text="@string/start_synchronization"
+	/> -->
+</LinearLayout>

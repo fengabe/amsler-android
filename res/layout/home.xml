@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:id    = "@+id/layoutHome"
+	android:background    = "@color/lite_green"
+	android:layout_height = "fill_parent"
+	android:layout_width  = "fill_parent"
+	android:orientation   = "vertical"
+	android:padding       = "10sp"
+	>
+
+	<Button
+		android:id = "@+id/btnPreferences"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/set_preferences"
+	/>
+
+	<Button
+		android:id = "@+id/btnResetPreferences"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/reset_preferences"
+	/>
+
+	<Button
+		android:id = "@+id/btnResetDatabase"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/reset_database"
+	/>
+
+	<Button
+		android:id = "@+id/btnDownloadSnapshot"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/download_snapshot"
+	/>
+
+	<Button
+		android:id = "@+id/btnSynchronize"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/start_synchronization"
+	/>
+
+	<Button
+		android:id="@+id/btnSQLiteExplorer"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/sqlite_explorer"
+	/>
+
+	<Button
+		android:id = "@+id/btnAbout"
+		android:layout_height    = "wrap_content"
+		android:layout_width     = "fill_parent"
+		android:layout_marginTop = "5sp"
+		android:text             = "@string/about"
+	/>
+
+</LinearLayout>

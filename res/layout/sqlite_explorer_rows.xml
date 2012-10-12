@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/lite_green"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:padding="10sp"
+	>
+
+	<ListView
+		android:id="@+id/lvShowRows"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:cacheColorHint="#00000000"
+		android:padding="5sp"
+	/>
+</LinearLayout>

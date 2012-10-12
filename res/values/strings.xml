@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="about"                  >About</string>
+	<string name="amsler"                 >Amsler</string>
+	<string name="application_state"      >Application State</string>
+	<string name="binlog_filename"        >Binlog filename</string>
+	<string name="binlog_position"        >Binlog position</string>
+	<string name="brainwipe_complete"     >Brainwipe complete</string>
+	<string name="catfoodisgood"          >catfoodisgood</string>
+	<string name="com.fyrecloud.amsler"   >com.fyrecloud.com</string>
+	<string name="download_snapshot"      >Download beginning snapshot</string>
+	<string name="fyrecloud.com"          >fyrecloud.com</string>
+	<string name="fyrecloud.com_snapshot" >http://fyrecloud.com/examples/amsler/snapshot</string>
+	<string name="host_name_or_ip"        >Host name or IP</string>
+	<string name="is_fresh_install"       >Is fresh install?</string>
+	<string name="is_snapshot_downloaded" >Is snapshot downloaded</string>
+	<string name="is_sqlite_initialized"  >Is SQLite initialized?</string>
+	<string name="mysql_binlog"           >mysql-bin.000002</string>
+	<string name="mysql_port"             >MySQL Port</string>
+	<string name="mysql_server"           >MySQL Server</string>	
+	<string name="n3307"                  >3307</string>
+	<string name="n10857"                 >10857</string>
+	<string name="preferences"            >Preferences</string>
+	<string name="preferences_reset"      >Preferences reset to default values</string>
+	<string name="replication"            >Replication</string>
+	<string name="replication_user"       >Replication user</string>
+	<string name="replication_user_pw"    >Replication user password</string>
+	<string name="reset_database"         >Brainwipe device SQLite database</string>
+	<string name="reset_preferences"      >Reset preferences to defaults</string>
+	<string name="send_email"             >Send Email</string>
+	<string name="set_preferences"        >Set preferences</string>
+	<string name="slaver"                 >slaver</string>
+	<string name="snapshot_url"           >Snapshot URL</string>
+	<string name="sqlite_explorer"        >SQLite Explorer</string>
+	<string name="sqlite_explorer_record" >SQLite Explorer- Record</string>
+	<string name="sqlite_explorer_rows"   >SQLite Explorer- Rows</string>
+	<string name="sqlite_explorer_tables" >SQLite Explorer- Tables</string>
+	<string name="start_synchronization"  >Start synchronization</string>
+
+	<!-- Managed preferences keys, alpha by name -->
+	<string name="pref_binlog_filename_key"        >prefBinlogFilenameKey</string>
+	<string name="pref_binlog_position_key"        >prefBinlogPositionKey</string>
+	<string name="pref_host_key"                   >prefHostKey</string>
+	<string name="pref_is_fresh_install_key"       >prefIsFreshInstallKey</string>
+	<string name="pref_is_snapshot_downloaded_key" >prefIsSnapshotDownloaded</string>
+	<string name="pref_is_sqlite_init_key"         >prefIsSQLiteInitKey</string>
+	<string name="pref_mysql_port_key"             >prefPortKey</string>
+	<string name="pref_replication_user_key"       >prefReplicationUserKey</string>
+	<string name="pref_replication_user_pw_key"    >prefReplicationUserPasswordKey</string>
+	<string name="pref_snapshot_url_key"           >prefSnapshotURLKey</string>
+
+</resources>

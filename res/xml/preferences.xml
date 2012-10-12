@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+http://www.kaloer.com/android-preferences
+http://www.androidguys.com/2008/09/29/whats-your-preference-part-one/
+
+The default values for these preferences are also defined in
+AmslerTestConstants for use in testing.  Please forgive the duplication,
+but both copies must be identical.  Ensure that they are.
+
+-->
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<PreferenceCategory
+		android:title="@string/mysql_server"
+		>
+
+		<EditTextPreference
+			android:key          = "@string/pref_host_key"
+			android:title        = "@string/host_name_or_ip"
+			android:defaultValue = "@string/fyrecloud.com"
+		/>
+
+		<EditTextPreference
+			android:key          = "@string/pref_mysql_port_key"
+			android:title        = "@string/mysql_port"
+			android:defaultValue = "@string/n3307"
+		/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title = "@string/replication"
+		>
+
+		<EditTextPreference
+			android:key          = "@string/pref_snapshot_url_key"
+			android:title        = "@string/snapshot_url"
+			android:defaultValue = "@string/fyrecloud.com_snapshot"
+		/>
+
+		<EditTextPreference
+			android:key          = "@string/pref_replication_user_key"
+			android:title        = "@string/replication_user"
+			android:defaultValue = "@string/slaver"
+		/>
+
+		<EditTextPreference
+			android:key          = "@string/pref_replication_user_pw_key"
+			android:title        = "@string/replication_user_pw"
+			android:defaultValue = "@string/catfoodisgood"
+		/>
+
+		<EditTextPreference
+			android:key          = "@string/pref_binlog_filename_key"
+			android:title        = "@string/binlog_filename"
+			android:defaultValue = "@string/mysql_binlog"
+		/>
+
+		<EditTextPreference
+			android:key          = "@string/pref_binlog_position_key"
+			android:title        = "@string/binlog_position"
+			android:defaultValue = "@string/n10857"
+		/>
+
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/application_state"
+		>
+
+		<CheckBoxPreference
+			android:key          = "@string/pref_is_fresh_install_key"
+			android:title        = "@string/is_fresh_install"
+			android:defaultValue = "true"
+		/>
+
+		<CheckBoxPreference
+			android:key          = "@string/pref_is_sqlite_init_key"
+			android:title        = "@string/is_sqlite_initialized"
+			android:defaultValue = "false"
+		/>
+
+		<CheckBoxPreference
+			android:key          = "@string/pref_is_snapshot_downloaded_key"
+			android:title        = "@string/is_snapshot_downloaded"
+			android:defaultValue = "false"
+		/>
+
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation   = "vertical"
+	style                 = "@style/Text"
+	>
+
+	<TextView
+		android:id = "@+id/lblPrimaryKey"
+		style      = "@style/Text"
+	/>
+
+	<TextView
+		android:id = "@+id/lblName"
+		style      = "@style/Text"
+	/>
+
+</LinearLayout>

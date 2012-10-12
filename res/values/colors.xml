@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<color name="red_hint"     >#40ff0000</color>
+	<color name="black"        >#ff000000</color>
+	<color name="yellow_brown" >#ffa66e00</color>
+	<color name="lite_green"   >#ffabdb6d</color>
+	<color name="white"        >#ffffffff</color>
+
+<!-- 
+TODO: get rid of these
+
+	<color name="blue"         >#ff0000ff</color>
+	<color name="green"        >#ff00ff00</color>
+	<color name="olive_green"  >#ff92aa57</color>
+	<color name="red"          >#ffff0000</color>
+	<color name="yellow_lite"  >#ffffe090</color>
+	<color name="yellow_liter" >#fffff0c0</color>
+	<color name="screen_bg_color">#ffffffff</color>
+ -->
+
+</resources>
