@@ -202,7 +202,6 @@ public class MySQLClientHandler extends SimpleChannelHandler {
 		//the server compares SHA1(stage1_hash') and mysql.user.Password
 		//If they are the same, the password is okay. 
 		byte[] password = new byte[]{'c','a','t','f','o','o','d','i','s','g','o','o','d'};
-		//byte[] password = new byte[]{'P','o','c','v','u','g','l','a','d','c','3','v','g','e','b','I','c','h','2','o'};
 
 		byte[] stage1_hash;
 		byte[] token1 = new byte[]{};
@@ -250,7 +249,6 @@ public class MySQLClientHandler extends SimpleChannelHandler {
 
 		// example 1 password
 		byte[] password = new byte[] {'c','a','t','f','o','o','d','i','s','g','o','o','d'};
-		//byte[] password = new byte[] {'P','o','c','v','u','g','l','a','d','c','3','v','g','e','b','I','c','h','2','o'};
 		scramble_323(to, scramble, password);
 
 		buffer.writeMedium(9);		// should calculate this
